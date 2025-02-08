@@ -1,14 +1,12 @@
 # Exponentiation Calculator
 
-This program performs both standard and modular exponentiation. It supports fractional exponents and efficiently handles modular calculations, making it suitable for mathematical and cryptographic applications.
+This is project performs both standard and modular exponentiation. It's designed to help you efficiently compute exponentiation for mathematical and cryptographic applications, supporting fractional exponents and optimized modular calculations.
 
-- **Standard Exponentiation**: Computes `x^k` for real values of `x` and `k`.
-- **Modular Exponentiation**: Calculates `(x^k) mod m`, useful for cryptographic functions.
-- **Fractional Exponents**: Uses the C math library to handle non-integer powers.
-- **Efficient Modular Calculation**: Implements an optimized method for computing modular exponentiation.
-- **User-Friendly Interface**: Provides an interactive menu for easy selection of operations.
+The way I programmed it was by implementing a function that calculates `x^k` for both integer and fractional values of `k` using the C math library. To make it more versatile, I added modular exponentiation, which computes `(x^k) mod m`, which is a critical operation in cryptography. Since modular exponentiation can be computationally intensive, I used an optimized method that significantly reduces processing time, especially for large values.
 
-## Example Usage
+I created this project because I needed a fast and reliable way to handle exponentiation, especially in cases where modular arithmetic is needed. Working on the optimization techniques was a great learning experience, and I made sure the interface is simple so you can easily choose between standard and modular exponentiation.
+
+## Example Output
 ```
 --- Exponentiation Calculator ---
 1. Standard Exponentiation (x^k)
